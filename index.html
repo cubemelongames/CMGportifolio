@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cubemelongames - Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <meta name="description" content="Developer portfolio for cubemelongames, showcasing projects and skills.">
+</head>
+
+<body>
+<header role="banner">
+  <button id="burger" aria-label="Toggle navigation" aria-expanded="false">
+    <span></span><span></span><span></span>
+  </button>
+
+  <nav id="nav-links" role="navigation">
+    <ul>
+      <li><a href="#about-me">About Me</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+</header>
+
+    <main>
+        <section id="about-me">
+            <h2>About Me</h2>
+            <p>Briefly describe your background, passions, and what you love working on.</p>
+        </section>
+
+        <section id="projects">
+            <h2>Projects</h2>
+            <div class="projects-container">
+                <article class="project-card">
+                    <h3>Project 1</h3>
+                    <figure>
+                        <img src="project1.png" alt="Screenshot of Project 1">
+                        <figcaption>Description of Project 1.</figcaption>
+                    </figure>
+                </article>
+
+                <article class="project-card">
+                    <h3>Project 2</h3>
+                    <figure>
+                        <img src="project2.png" alt="Screenshot of Project 2">
+                        <figcaption>Description of Project 2.</figcaption>
+                    </figure>
+                </article>
+                <article class="project-card">
+                    <h3>Project 2</h3>
+                    <figure>
+                        <img src="project3.png" alt="Screenshot of Project 3">
+                        <figcaption>Description of Project 2.</figcaption>
+                    </figure>
+                </article>
+            </div>
+        </section>
+
+        <section id="skills">
+            <h2>Skills</h2>
+            <ul class="skills-list">
+                <li>HTML/CSS</li>
+                <li>JavaScript</li>
+                <li>Python</li>
+                <li>React</li>
+            </ul>
+        </section>
+
+        <section id="contact">
+            <h2>Contact</h2>
+            <form action="#" method="post">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+
+                <button type="submit">Send Message</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 cubemelongames. All rights reserved.</p>
+    </footer>
+    <script src="script.js" defer></script>
+</body>
+
+</html>
